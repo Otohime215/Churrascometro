@@ -1,0 +1,52 @@
+body{
+    background-image: url(/Churras.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
+    background-color: darkcyan;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+    
+    
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+    input, button {
+        font-size: 16px;
+    }
+}
